@@ -9,6 +9,7 @@
   "author": "Buntat",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^4.3.1",
     "electron": "^7.1.2"
   }
 }
