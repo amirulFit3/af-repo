@@ -1,13 +1,34 @@
+@font-face
+{
+    src: url(./fonts/Allan-Regular.ttf);
+    font-family: allan-reg;
+}
+
+@font-face
+{
+    src: url(./fonts/Allan-Bold.ttf);
+    font-family: allan-bold;
+}
+
+html
+{
+    background-color: white;
+}
+
 h1 
 {
     text-align: center;
-    font-style: oblique;
-    font-size: 40px;
-    color: brown;
-    margin: auto;
+    font-size: 45px;
+    font-family: allan-bold;
+    color: black;
+    text-shadow: 2px 0 2px white;
+    margin-top: 5px;
 }
 
 body
 {
-    background-color: burlywood;
+    background-color: brown;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
 }
